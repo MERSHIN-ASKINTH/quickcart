@@ -1,0 +1,13 @@
+.cart {
+  position: fixed;
+  right: -300px;
+  top: 0;
+  width: 300px;
+  height: 100%;
+  background: white;
+  transition: 0.3s;
+}
+
+.cart.open {
+  right: 0;
+}
